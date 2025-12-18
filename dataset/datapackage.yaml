@@ -32,5 +32,5 @@ resources:
           type: integer
           description: "Total de leitos dia excluídos os leitos extra ocupados."
     scheme: file
-    title: Dados de leito dia por unidade Fhemig divididos por setor ou centro de custo hospitalar.
+    title: Dados de leito dia por unidade Fhemig.
 title: Leito dia
