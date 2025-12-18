@@ -1,89 +1,20 @@
 {
   "version": "4.16.6",
-  "time": 0.039,
-  "errors": [],
-  "tasks": [
+  "time": 0.009,
+  "errors": [
     {
-      "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
-        "dialect": {
-          "delimiter": ";"
-        },
-        "encoding": "utf-8-sig",
-        "format": "csv",
-        "hashing": "md5",
-        "name": "leito-dia",
-        "path": "data/leito-dia.csv",
-        "profile": "tabular-data-resource",
-        "schema": {
-          "fields": [
-            {
-              "name": "unidade",
-              "type": "string"
-            },
-            {
-              "name": "ano",
-              "type": "integer"
-            },
-            {
-              "name": "mes",
-              "type": "integer"
-            },
-            {
-              "name": "setor_centro_custo",
-              "type": "string"
-            },
-            {
-              "name": "leito_dia",
-              "type": "integer"
-            },
-            {
-              "name": "leito_operacional_sem_extra",
-              "type": "integer"
-            }
-          ]
-        },
-        "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
-        "stats": {
-          "hash": "03700042964aaef9646461b87335a8cc",
-          "bytes": 56639,
-          "fields": 6,
-          "rows": 1063
-        }
-      },
-      "time": 0.029,
-      "scope": [
-        "hash-count-error",
-        "byte-count-error",
-        "field-count-error",
-        "row-count-error",
-        "blank-header",
-        "extra-label",
-        "missing-label",
-        "blank-label",
-        "duplicate-label",
-        "incorrect-label",
-        "blank-row",
-        "primary-key-error",
-        "foreign-key-error",
-        "extra-cell",
-        "missing-cell",
-        "type-error",
-        "constraint-error",
-        "unique-error"
-      ],
-      "partial": false,
-      "errors": [],
-      "stats": {
-        "errors": 0
-      },
-      "valid": true
+      "code": "package-error",
+      "name": "Package Error",
+      "tags": [],
+      "note": "\"'leito dia' does not match '^([-a-z0-9._/])+$'\" at \"name\" in metadata and at \"properties/name/pattern\" in profile",
+      "message": "The data package has an error: \"'leito dia' does not match '^([-a-z0-9._/])+$'\" at \"name\" in metadata and at \"properties/name/pattern\" in profile",
+      "description": "A validation cannot be processed."
     }
   ],
+  "tasks": [],
   "stats": {
-    "errors": 0,
-    "tasks": 1
+    "errors": 1,
+    "tasks": 0
   },
-  "valid": true
+  "valid": false
 }
