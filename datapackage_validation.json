@@ -5,7 +5,7 @@
   "tasks": [
     {
       "resource": {
-        "description": "Dados de leito dia por unidade Fhemig divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).",
+        "description": "Dados de leito dia por unidade FHEMIG divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).",
         "dialect": {
           "delimiter": ";"
         },
@@ -50,7 +50,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Dados de leito dia por unidade Fhemig.",
+        "title": "Dados de leito dia por unidade FHEMIG",
         "stats": {
           "hash": "",
           "bytes": 0,
@@ -58,7 +58,7 @@
           "rows": 0
         }
       },
-      "time": 0.065,
+      "time": 0.064,
       "scope": [
         "hash-count-error",
         "byte-count-error",
