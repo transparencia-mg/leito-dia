@@ -2,7 +2,7 @@ name: leito-dia
 owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
 profile: data-package
 resources:
-  - description: Dados de leito dia por unidade Fhemig divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).
+  - description: Dados de leito dia por unidade FHEMIG divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -32,5 +32,5 @@ resources:
           type: integer
           description: "Total de leitos dia excluídos os leitos extra ocupados."
     scheme: file
-    title: Dados de leito dia por unidade Fhemig.
+    title: Dados de leito dia por unidade FHEMIG
 title: Leito Dia
